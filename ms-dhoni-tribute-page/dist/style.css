@@ -1,0 +1,84 @@
+body {
+  background: #ffd902;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#image2 {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+h1,
+.p {
+  display: block;
+  text-align: center;
+  background-color: #ffd902;
+}
+
+#img-caption {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset {
+  margin: 5px;
+  margin-top: 40px;
+  background-color: #0ea7ff;
+  border: 2px solid rgb(5, 41, 83);
+}
+
+img {
+  display: block;
+}
+
+ul > li {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.wikipedia {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  border: 2px solid navy;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
